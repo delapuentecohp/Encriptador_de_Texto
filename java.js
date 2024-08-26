@@ -17,7 +17,7 @@ function encriptar() {
         text_parafo='';
         imagen.src='/imagenes/encriptado.jpg';
     }else{
-        imagen.src='/imagenes/Muñeco.png';
+        imagen.src='/imagenes/imagen.png';
         text_mensaje.textContent='Ningun mensaje fue encontrado.';
         text_parafo.textContent='Ingresa el texto que deseas encriptar o desencriptar.';
         alert('Debes ingresar algun texto');
@@ -42,7 +42,7 @@ function desencriptar(){
         text_parafo='';
         imagen.src='/imagenes/desencriptado.jpg';
     }else{
-        imagen.src='/imagenes/Muñeco.png';
+        imagen.src='/imagenes/imagen.png';
         text_mensaje.textContent='Ningun mensaje fue encontrado.';
         text_parafo.textContent='Ingresa el texto que deseas encriptar o desencriptar.';
         alert('Debes ingresar algun texto');
